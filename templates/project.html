@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" style="font-size: 20px;" class="logo">Sameer's Portfolio</a>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links" id="navLinks">
+                <a href="/about">About</a>
+                <a href="/education">Education</a>
+                <a href="/project">Project</a>
+                <a href="/certificate">Coding Profile</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="education-section">
+        <div class="edu-container">
+            <div class="edu-card">
+                <img src="/static/images/project1.png" alt="School" class="edu-img">
+                <h3>Code Profile Tracker</h3>
+                <p>Built a Flask web app to track coding progress across platforms, showing real-time stats, user profiles, and visual charts.</p>
+                <b><a href="https://code-profile-tracker.onrender.com/login">Link</a></b>
+            </div>
+            <div class="edu-card">
+                <img src="/static/images/project2.jpeg" alt="College" class="edu-img">
+                <h3>College ChatBot</h3>
+                <p>Created a Flask-based chatbot for answering college queries like admissions, courses, etc using JavaScript for real-time interaction. </p>
+                <b><a href="https://college-chatbot-2-3kmg.onrender.com/">Link</a></b>
+            </div>
+            <div class="edu-card">
+                <img src="/static/images/project3.jpg" alt="University" class="edu-img">
+                <h3>Task Scheduler App</h3>
+                <p>Built a task management app with create, update, delete, categorize features using JavaScript, HTML/CSS for dynamic UI and responsiveness.</p>
+                <b><a href="https://task-scheduler-o31k.vercel.app/">Link</a></b>
+            </div>
+            <div class="edu-card">
+                <img src="/static/images/project4.jpeg" alt="" class="edu-img">
+                <h3>Explore more projects</h3>
+                <b><a href="https://github.com/Sameer172003">Click here...</a></b>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Developed by Sameer ❤️</p>
+    </footer>
+    <script>
+    function toggleMenu() {
+        const nav = document.getElementById('navLinks');
+        nav.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>

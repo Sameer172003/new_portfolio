@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" style="font-size: 20px;" class="logo">Sameer's Portfolio</a>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links" id="navLinks">
+                <a href="/about">About</a>
+                <a href="/education">Education</a>
+                <a href="/project">Project</a>
+                <a href="/certificate">Coding Profile</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="education-section">
+        <div class="edu-container">
+            <div class="edu-card">
+                <img src="/static/images/school2.jpeg" alt="School" class="edu-img">
+                <h3>DAV Public School</h3>
+                <p>Completed 10th grade with General Stream from DAV Public School.</p>
+                <b>2018 - 2019</b>
+            </div>
+            <div class="edu-card">
+                <img src="/static/images/school3.jpeg" alt="College" class="edu-img">
+                <h3>DAV Public School</h3>
+                <p>Completed 12th grade with Science stream from DAV Public School.</p>
+                <b>2020 - 2021</b>
+            </div>
+            <div class="edu-card">
+                <img src="/static/images/college.webp" alt="University" class="edu-img">
+                <h3>VIT University</h3>
+                <p>Bachelor's degree in Engineering from VIT University.</p>
+                <b>2021 - 2025</b>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Developed by Sameer ❤️</p>
+    </footer>
+    <script>
+    function toggleMenu() {
+        const nav = document.getElementById('navLinks');
+        nav.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" style="font-size: 20px;" class="logo">Sameer's Portfolio</a>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links" id="navLinks">
+                <a href="/about">About</a>
+                <a href="/education">Education</a>
+                <a href="/project">Project</a>
+                <a href="/certificate">Coding Profile</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="text-box">
+            <h2>I'm Sameer</h2>
+            <b><p>Python Developer | Data Analyst | AI-ML Developer</p></b>
+            <p>Electronics and Communication Engineering graduate with a strong foundation in Data Structures & Algorithms, Web Development, and Embedded Systems. Recently explored Data Analytics and AI/ML with hands-on experience in Python, data preprocessing, and visualization. Proficient in Java, HTML/CSS/JavaScript, and tools like Git, Power BI, and MATLAB. <br>
+            <br>
+            <b>Email :</b> ojhasameer24@gmail.com <br>
+            <b>Place :</b> Vellore, India - 632014</p>
+        </div>
+        <div class="image-box">
+            <img src="/static/images/about.jpg" alt="Sameer_DP">
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Developed by Sameer ❤️</p>
+    </footer>
+    <script>
+    function toggleMenu() {
+        const nav = document.getElementById('navLinks');
+        nav.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>

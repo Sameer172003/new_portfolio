@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+       <a href="/" style="font-size: 20px;" class="logo">Sameer's Portfolio</a>
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <div class="nav-links" id="navLinks">
+        <a href="/about">About</a>
+        <a href="/education">Education</a>
+        <a href="/project">Project</a>
+        <a href="/certificate">Coding Profile</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="image-box">
+      <img src="/static/images/home.png" alt="Sameer" />
+    </div>
+    <div class="text-box">
+      <h1>Hi There,<br />I'm Sameer</h1>
+      <br>
+      <p>Below is my <b>Technical Skills : </b></p>
+      <p>
+        <b>1. Programming Languages:</b> Java, Python <br />
+        <b>2. Web Technologies:</b> HTML, CSS, JavaScript, Flask <br />
+        <b>3. Data Analysis & Visualization:</b> Excel, Power BI, Matplotlib, Seaborn <br />
+        <b>4. Libraries & Tools:</b> Pandas, NumPy, Git, GitHub, VS Code <br />
+        <b>5. Simulation Software:</b> MATLAB, Multisim, Net-Sim, Cisco Packet Tracer <br />
+        <b>6. Electronics:</b> Analog Electronics, Digital Electronics and Embedded System
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Developed by Sameer ❤️</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

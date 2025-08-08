@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" style="font-size: 20px;" class="logo">Sameer's Portfolio</a>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="nav-links" id="navLinks">
+                <a href="/about">About</a>
+                <a href="/education">Education</a>
+                <a href="/project">Project</a>
+                <a href="/certificate">Coding Profile</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="education-section">
+        <div class="edu-container">
+            <div class="edu-card">
+                <img src="/static/images/leetcode.jpeg" alt="School" class="edu-img">
+                <h3>Leetcode</h3>
+                <p>LeetCode is a popular platform to practice coding interviews and improve algorithmic skills.</p>
+                <b><a href="https://leetcode.com/u/Sameer_ojha/">Link</a></b>
+            </div>
+            <div class="edu-card">
+                <img src="/static/images/gfg.jpeg" alt="College" class="edu-img">
+                <h3>Geeks For Geeks</h3>
+                <p>GeeksforGeeks offers tutorials, coding problems, and interview preparation for computer science and programming enthusiasts.</p>
+                <b><a href="https://www.geeksforgeeks.org/user/ma832v85fmwawvco6wyqw91665ku3fzufwwrtmxn/">Link</a></b>
+            </div>
+            <div class="edu-card">
+                <img src="/static/images/coding.jpg" alt="University" class="edu-img">
+                <h3>Coding Ninjas</h3>
+                <p>Coding Ninjas provides structured online courses and practice problems for mastering coding, data structures, and algorithms.</p>
+                <b><a href="https://www.naukri.com/code360/profile/sam2203">Link</a></b>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Developed by Sameer ❤️</p>
+    </footer>
+    <script>
+    function toggleMenu() {
+        const nav = document.getElementById('navLinks');
+        nav.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
