@@ -52,13 +52,13 @@ nav a:hover {
     color: white;
     text-decoration: none;
 }
-
 /* Hamburger icon */
 .menu-icon {
-    display: none;
+    display:none;
     font-size: 30px;
     color: white;
     cursor: pointer;
+    margin-left: auto;
 }
 
 /* Nav Links */
